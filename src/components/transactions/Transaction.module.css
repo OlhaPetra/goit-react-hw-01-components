@@ -1,0 +1,30 @@
+.transaction {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  table-layout: fixed;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 1px solid var(--secondary-text-color);
+}
+
+.tableBorder {
+  border: 1px solid var(--secondary-text-color);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tableThead {
+  background-color: var(--table-bcg-color);
+  color: var(--dark-bcg-text);
+}
+.tableColor:nth-child(odd) {
+  background-color: var(--table-tr-color);
+  color: var(--secondary-text-color);
+}
+.tableColor:nth-child(even) {
+  background-color: var(--secondary-bcg-color);
+  color: var(--secondary-text-color);
+}

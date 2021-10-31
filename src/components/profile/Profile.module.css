@@ -1,0 +1,77 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: var(--secondary-bcg-color);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.profile_items {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  margin-bottom: 30px;
+  border-radius: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textName {
+  margin-bottom: 10px;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.text {
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+.text:last-child {
+  margin-bottom: 30px;
+}
+
+.statInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100px;
+  background-color: var(--stat-info-bsg-color);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.label {
+  margin-bottom: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--secondary-text-color);
+}
+
+.quantity {
+  font-weight: 700;
+}
