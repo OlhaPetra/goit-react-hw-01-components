@@ -1,1 +1,1 @@
-# goit-react-hw-01-componentю Создание компонентов на REACT.
+# goit-react-hw-01-component. Создание компонентов на REACT.
